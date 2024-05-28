@@ -137,11 +137,11 @@ body {
 .video-gallery-container {
   text-align: center;
   margin: 40px auto;
-  width: 80%; /* 控制整个容器的宽度，可以根据需要调整 */
+  width: 80%;
 }
 
 .gallery-title {
-  font-size: 42px; /* 增大标题字体 */
+  font-size: 42px;
   font-weight: bold;
   margin-bottom: 20px;
 }
