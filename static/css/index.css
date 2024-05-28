@@ -158,6 +158,14 @@ body {
   margin-bottom: 10px;
 }
 
+.sticky-header {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1; /* Ensure it stays on top of other content */
+}
+
 .video-gallery .grid-item {
   background-color: #fff;
   overflow: hidden;
