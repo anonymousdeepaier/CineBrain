@@ -192,7 +192,7 @@ body {
 
 
 .gallery-title {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
@@ -215,6 +215,7 @@ body {
   justify-content: space-between;
 }
 .grid-header {
+  font-size: 24px;
   text-align: center;
   font-weight: bold;
   width: 33.33%;
@@ -237,4 +238,8 @@ body {
 .caption {
   text-align: center;
   margin-top: 5px;
+}
+.highlight {
+  color: #2c5fa7;
+  font-weight: bold;
 }
