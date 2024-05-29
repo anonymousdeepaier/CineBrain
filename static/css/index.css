@@ -134,7 +134,7 @@ body {
 }
 
 
-.video-gallery-container {
+/* .video-gallery-container {
   text-align: center;
   margin: 40px auto;
   width: 80%;
@@ -148,7 +148,13 @@ body {
 
 .video-gallery {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.video-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
@@ -159,11 +165,11 @@ body {
 }
 
 .sticky-header {
-  position: -webkit-sticky; /* For Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 1; /* Ensure it stays on top of other content */
+  z-index: 1;
 }
 
 .video-gallery .grid-item {
@@ -177,4 +183,58 @@ body {
   display: block;
   border: none;
   border-radius: 0;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 5px;
+} */
+
+
+.gallery-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.video-gallery-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.video-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.video-group {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-header {
+  text-align: center;
+  font-weight: bold;
+  width: 33.33%;
+}
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+.grid-item {
+  text-align: center;
+  width: 33.33%;
+}
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.caption {
+  text-align: center;
+  margin-top: 5px;
 }
