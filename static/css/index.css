@@ -232,14 +232,23 @@ body {
 }
 .grid-item img {
   width: 100%;
+  /* width: 224px; */
   height: auto;
   display: block;
 }
 .caption {
   text-align: center;
   margin-top: 5px;
+  color: #333;
 }
 .highlight {
   color: #2c5fa7;
   font-weight: bold;
+}
+.dcf-value {
+  text-align: center;
+  font-style: italic;
+  color: #2c5fa7;
+  font-weight: bold;
+  margin-top: 5px;
 }
