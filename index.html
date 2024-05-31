@@ -122,9 +122,6 @@
 <div class="video-gallery-container">
   <h2 class="gallery-title">Reconstruction Video Results</h2>
   <div class="video-gallery">
-    <!-- <div class="grid-header sticky-header">Groundtruth</div>
-    <div class="grid-header sticky-header">MindGrapher(Ours)</div>
-    <div class="grid-header sticky-header">Mind-Video(Chen <em>et al.</em>, 2023)</div> -->
     <div class="video-group sticky-header">
       <div class="grid-header">Groundtruth</div>
       <div class="grid-header">MindGrapher (Ours)</div>
@@ -134,31 +131,34 @@
     <div class="video-group">
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/gt/gt_643.gif" alt="Groundtruth">
-        <!-- <div class="caption">The woman is speaking into a microphone while holding a statue, and then she smiles and laughs while still holding the statue.</div> -->
         <div class="caption">The woman is <span class="highlight">speaking into a microphone</span>...</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject2/643.gif" alt="MindGrapher(Ours)">
         <div class="caption">The woman is <span class="highlight">speaking into a microphone</span>...</div>
+        <div class="dcf-value">DCF: 0.677</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject2/mindvideo_pred_643.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
         <div class="caption">A woman is <span class="highlight">holding an umbrella</span>...</div>
+        <div class="dcf-value">DCF: 0.220</div>
       </div>
     </div>
     <div class="video-group">
       <div class="grid-item">
-        <img class="lazy" data-src="static/videos/gt/gt_270.gif" alt="Groundtruth">
+        <img class="lazy" data-src="static/videos/gt/gt_872.gif" alt="Groundtruth">
         <!-- <div class="caption">The woman is speaking into a microphone while holding a statue, and then she smiles and laughs while still holding the statue.</div> -->
-        <div class="caption">A man is <span class="highlight">playing a guitar</span> in a room...</div>
+        <div class="caption">...The subway station <span class="highlight">is busy with people walking</span>...</div>
       </div>
       <div class="grid-item">
-        <img class="lazy" data-src="static/videos/subject3/270.gif" alt="MindGrapher(Ours)">
-        <div class="caption">Two women are <span class="highlight">playing the violin</span> together...</div>
+        <img class="lazy" data-src="static/videos/subject3/872.gif" alt="MindGrapher(Ours)">
+        <div class="caption">...is <span class="highlight"></span>dancing in the middle of a crowd</span>....</div>
+        <div class="dcf-value">DCF: 0.530</div>
       </div>
       <div class="grid-item">
-        <img class="lazy" data-src="static/videos/subject3/mindvideo_pred_270.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
-        <div class="caption">A woman is <span class="highlight">sitting</span> at a desk...</div>
+        <img class="lazy" data-src="static/videos/subject3/mindvideo_pred_872.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
+        <div class="caption">...A man is <span class="highlight">running down a dirt road</span>...</div>
+        <div class="dcf-value">DCF: 0.332</div>
       </div>
     </div>
     <div class="video-group">
@@ -170,70 +170,62 @@
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject2/157.gif" alt="MindGrapher(Ours)">
         <div class="caption">A woman is <span class="highlight">performing a workout</span> routine...</div>
+        <div class="dcf-value">DCF: 0.370</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject2/mindvideo_pred_157.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
         <div class="caption">...<span class="highlight">holding a small object</span> and <span class="highlight">talking</span> to a woman...</div>
+        <div class="dcf-value">DCF: 0.196</div>
       </div>
     </div>
-    <div class="video-group">
-      <div class="grid-item">
-        <img class="lazy" data-src="static/videos/gt/gt_56.gif" alt="Groundtruth">
-        <!-- <div class="caption">The woman is speaking into a microphone while holding a statue, and then she smiles and laughs while still holding the statue.</div> -->
-        <div class="caption">The man is <span class="highlight">holding his hands</span> up to the camera...</div>
-      </div>
-      <div class="grid-item">
-        <img class="lazy" data-src="static/videos/subject2/56.gif" alt="MindGrapher(Ours)">
-        <div class="caption">A man and a woman are <span class="highlight">holding hands</span>...</div>
-      </div>
-      <div class="grid-item">
-        <img class="lazy" data-src="static/videos/subject2/mindvideo_pred_56.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
-        <div class="caption">A man is <span class="highlight">throwing a ball</span>...</div>
-      </div>
-    </div>
-    <div class="video-group">
+    
+    <!-- <div class="video-group">
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/gt/gt_1169.gif" alt="Groundtruth">
-        <!-- <div class="caption">The woman is speaking into a microphone while holding a statue, and then she smiles and laughs while still holding the statue.</div> -->
         <div class="caption">A man is <span class="highlight">walking his two dogs</span> on a leash...</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject3/1169.gif" alt="MindGrapher(Ours)">
         <div class="caption">A man <span class="highlight">leads a herd of black cows </span>on a dirt road...</div>
+        <div class="dcf-value">DCF: 0.234</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1169.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
         <div class="caption">A group of boys are <span class="highlight">playing a game</span> of tug of war...</div>
+        <div class="dcf-value">DCF: 0.234</div>
       </div>
     </div>
     <div class="video-group">
       <div class="grid-item">
+        <img class="lazy" data-src="static/videos/gt/gt_270.gif" alt="Groundtruth">
+        <div class="caption">A man is <span class="highlight">playing a guitar</span> in a room...</div>
+      </div>
+      <div class="grid-item">
+        <img class="lazy" data-src="static/videos/subject3/270.gif" alt="MindGrapher(Ours)">
+        <div class="caption">Two women are <span class="highlight">playing the violin</span> together...</div>
+        <div class="dcf-value">DCF: 0.234</div>
+      </div>
+      <div class="grid-item">
+        <img class="lazy" data-src="static/videos/subject3/mindvideo_pred_270.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
+        <div class="caption">A woman is <span class="highlight">sitting</span> at a desk...</div>
+        <div class="dcf-value">DCF: 0.234</div>
+      </div>
+    </div> -->
+    
+    <div class="video-group">
+      <div class="grid-item">
         <img class="lazy" data-src="static/videos/gt/gt_232.gif" alt="Groundtruth">
-        <!-- <div class="caption">The woman is speaking into a microphone while holding a statue, and then she smiles and laughs while still holding the statue.</div> -->
         <div class="caption"><span class="highlight">A flame is burning</span> in a dark room...</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject1/232.gif" alt="MindGrapher(Ours)">
         <div class="caption"><span class="highlight">A large flame is burning</span> in the dark...</div>
+        <div class="dcf-value">DCF: 0.874</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject1/mindvideo_pred_232.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
         <div class="caption">A school of <span class="highlight">fish is swimming</span> in the ocean...</div>
-      </div>
-    </div>
-    <div class="video-group">
-      <div class="grid-item">
-        <img class="lazy" data-src="static/videos/gt/gt_181.gif" alt="Groundtruth">
-        <!-- <div class="caption">The woman is speaking into a microphone while holding a statue, and then she smiles and laughs while still holding the statue.</div> -->
-        <div class="caption"><span class="highlight">A large ship is sailing</span> on the water...</div>
-      </div>
-      <div class="grid-item">
-        <img class="lazy" data-src="static/videos/subject1/181.gif" alt="MindGrapher(Ours)">
-        <div class="caption"><span class="highlight">A large ship is sailing</span> through a river...</div>
-      </div>
-      <div class="grid-item">
-        <img class="lazy" data-src="static/videos/subject1/mindvideo_pred_181.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
-        <div class="caption"><span class="highlight">The city skyline</span> has a river flowing through it...</div>
+        <div class="dcf-value">DCF: 0.416</div>
       </div>
     </div>
     <div class="video-group">
@@ -245,10 +237,29 @@
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject2/1055.gif" alt="MindGrapher(Ours)">
         <div class="caption">A jet <span class="highlight">airplane takes off</span> and flies through the sky.</div>
+        <div class="dcf-value">DCF: 0.769</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject2/mindvideo_pred_1055.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
         <div class="caption"><span class="highlight">The person is walking</span> on a set of train tracks...</div>
+        <div class="dcf-value">DCF: 0.369</div>
+      </div>
+    </div>
+    <div class="video-group">
+      <div class="grid-item">
+        <img class="lazy" data-src="static/videos/gt/gt_181.gif" alt="Groundtruth">
+        <!-- <div class="caption">The woman is speaking into a microphone while holding a statue, and then she smiles and laughs while still holding the statue.</div> -->
+        <div class="caption"><span class="highlight">A large ship is sailing</span> on the water...</div>
+      </div>
+      <div class="grid-item">
+        <img class="lazy" data-src="static/videos/subject1/181.gif" alt="MindGrapher(Ours)">
+        <div class="caption"><span class="highlight">A large ship is sailing</span> through a river...</div>
+        <div class="dcf-value">DCF: 0.799</div>
+      </div>
+      <div class="grid-item">
+        <img class="lazy" data-src="static/videos/subject1/mindvideo_pred_181.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
+        <div class="caption"><span class="highlight">The city skyline</span> has a river flowing through it...</div>
+        <div class="dcf-value">DCF: 0.546</div>
       </div>
     </div>
     <div class="video-group">
@@ -260,10 +271,12 @@
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject3/755.gif" alt="MindGrapher(Ours)">
         <div class="caption">A police <span class="highlight">car drives down</span> a road by the water...</div>
+        <div class="dcf-value">DCF: 0.530</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject3/mindvideo_pred_755.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
         <div class="caption">A <span class="highlight">man</span> in a white suit is <span class="highlight">walking</span> on a rocky hillside...</div>
+        <div class="dcf-value">DCF: 0.309</div>
       </div>
     </div>
     <div class="video-group">
@@ -275,210 +288,14 @@
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject3/784.gif" alt="MindGrapher(Ours)">
         <div class="caption"><span class="highlight">A large school of yellow fish</span> is swimming...</div>
+        <div class="dcf-value">DCF: 0.817</div>
       </div>
       <div class="grid-item">
         <img class="lazy" data-src="static/videos/subject3/mindvideo_pred_784.gif" alt="Mind-Video(Chen <em>et al.</em>, 2023)">
         <div class="caption"><span class="highlight">A group of ducks</span> is swimming in a body of water...</div>
+        <div class="dcf-value">DCF: 0.700</div>
       </div>
     </div>
-
-    
-
-
-    <!-- 
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_784.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/784.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_784.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_181.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/181.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/mindvideo_pred_181.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_232.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/232.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/mindvideo_pred_232.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1169.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/1169.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1169.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_872.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/872.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_872.gif" alt="MindVideo"></div> -->
-
-    <!-- 
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_766.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/766.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/mindvideo_pred_766.gif" alt="MindVideo"></div>
-    
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_4.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/4.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_4.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_170.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/170.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_170.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_225.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/225.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_225.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_303.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/303.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_303.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_341.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/341.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_341.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_370.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/370.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_370.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_492.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/492.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_492.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_660.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/660.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_660.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_762.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/762.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_762.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_765.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/765.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_765.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_811.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/811.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_811.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_860.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/860.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_860.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_962.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/962.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_962.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_146.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/146.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/mindvideo_pred_146.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1030.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/1030.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_1030.gif" alt="MindVideo"></div>
-    
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1068.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/1068.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_1068.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_783.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/783.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_783.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_173.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/173.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/mindvideo_pred_173.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1177.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/1177.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject2/mindvideo_pred_1177.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_24.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/24.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_24.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_86.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/86.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_86.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_92.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/92.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_92.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_111.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/111.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_111.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_124.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/124.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_124.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_162.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/162.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_162.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_208.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/208.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_208.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_220.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/220.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_220.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_252.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/252.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_252.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_294.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/294.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_294.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_224.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/224.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject1/mindvideo_pred_224.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_303.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/303.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_303.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_319.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/319.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_319.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_342.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/342.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_342.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_355.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/355.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_355.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_381.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/381.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_381.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_386.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/386.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_386.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_397.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/397.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_397.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_419.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/419.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_419.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_429.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/429.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_429.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_458.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/458.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_458.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_462.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/462.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_462.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_469.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/469.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_469.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_508.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/508.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_508.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_515.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/515.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_515.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_578.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/578.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_578.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_660.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/660.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_660.gif" alt="MindVideo"></div>
-    
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_765.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/765.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_765.gif" alt="MindVideo"></div>
-    
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_867.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/867.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_867.gif" alt="MindVideo"></div>
-    
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_919.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/919.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_919.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1008.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/1008.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1008.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1010.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/1010.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1010.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1017.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/1017.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1017.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1056.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/1056.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1056.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1140.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/1140.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1140.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1149.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/1149.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1149.gif" alt="MindVideo"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/gt/gt_1163.gif" alt="Groundtruth"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/1163.gif" alt="MindGrapher(Ours)"></div>
-    <div class="grid-item"><img class="lazy" data-src="static/videos/subject3/mindvideo_pred_1163.gif" alt="MindVideo"></div> -->
   </div>
 </div>
 
