@@ -75,6 +75,15 @@
       grid-template-columns: 1fr 1fr 1fr; /* Three equal columns for headers */
       gap: 10px;
     }
+    .video-gallery-container:has(.two-column-gallery) .video-group {
+    grid-template-columns: 1fr 1fr !important; /* Force two equal columns */
+    gap: 10px; /* Maintain consistent spacing */
+  }
+
+    /* Apply this class to the "More Video Results" section */
+    .two-column-gallery .grid-item {
+    width: 100%; /* Ensure items take full width of their column */
+  }
   </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
