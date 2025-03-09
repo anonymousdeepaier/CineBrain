@@ -73,6 +73,21 @@
     .two-column-gallery .grid-item {
     width: 100%; /* Ensure items take full width of their column */
   }
+    .two-column-gallery .grid-header {
+    text-align: center; /* Center the text within each header */
+  }
+
+    /* If you need more specific targeting */
+    .video-gallery-container:has(.two-column-gallery) .sticky-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Maintain two columns */
+    text-align: center; /* Center all headers */
+  }
+
+    /* For just the "More Video Results" section */
+    .video-gallery-container:has(h2.gallery-title:contains("More Video Results")) .grid-header {
+    text-align: center;
+  }
   </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
