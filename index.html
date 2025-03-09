@@ -82,6 +82,18 @@
     font-weight: bold;
     padding: 8px 0;
   }
+    /* Ensure the actual content columns align with headers */
+    .two-column-gallery .video-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  /* Make sure grid items fill their containers */
+    .two-column-gallery .grid-item {
+    width: 100%;
+  }
   </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
