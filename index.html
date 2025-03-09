@@ -71,15 +71,16 @@
 
     .two-column-gallery .sticky-header {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns for headers */
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
     gap: 10px;
-    text-align: center; /* Center the text within each header */
+    width: 100%;
+    margin-bottom: 10px;
   }
 
-    .two-column-gallery .grid-header {
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    .two-column-gallery .sticky-header .grid-header {
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0;
   }
   </style>
 
